@@ -5,16 +5,51 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Jewerly</title>
   <link rel="icon" href="./images/logo.png">
-  <link rel="stylesheet" href="./style.css">
   <link rel="stylesheet" href="./normalize.css">
+  <link rel="stylesheet" href="./fonts.css">
+  <link rel="stylesheet" href="./style.css">
+  <link rel="stylesheet" href="./ui.css">
 </head>
 <body>
-  <main class="main">
-
-    <header>
-
+  <main>
+    <header class="header">
+      <img src="./images/logo.svg" class="ui-logo" alt="логотип бренда">
+      <div class="header__right">
+        <div class="header__ui-icon">
+          <img src="./images/heart-icon.svg" class="ui-icon" alt="иконка добавления в избранное">
+          <img src="./images/profile-icon.svg" class="ui-icon" alt="иконка профиля">
+          <div class="basket">
+            <img src="./images/basket-icon.svg" class="ui-icon" alt="иконка корзины магазина">
+            <span class="basket__num">1</span>
+          </div>
+        </div>
+        <img src="./images/burger.svg" class="burger" alt="кнопка выбора раздела"> 
+      </div>
     </header>
-    dsdsdsddsdsd
+
+    <div class="content-center">
+      <div class="content-center__left">
+        <h1 class="content-center__h1">HIGH JEWELRY</h1>
+        <div class="content-center__look">
+          <div class="content-center__sep"></div>
+          <p class="content-center__look-collection">Смотреть коллекцию</p>
+        </div>
+      </div>
+      <img class="content-center__img" src="./images/ring-cartier.png" alt="кольцо картье">
+    </div>
+
+    <div class="content-extra">
+
+      <div class="lang-block">
+        <div class="lang lang_active">
+          RU
+        </div>
+
+        <div class="lang">
+          EN
+        </div>
+      </div>
+    </div>
   </main>
 </body>
 </html>

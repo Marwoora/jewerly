@@ -1,18 +1,120 @@
 * { /** вес 0 */
   width: 100%;
+  box-sizing: border-box;
 }
 
-main {  /** вес 1 */
+main {
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
   width: 1440px;
+  height: 100vh;
   margin-left: auto;
   margin-right: auto;
-  background: red;
+  padding: 60px 162px;
+  background: rgb(255,255,255);
+  background: linear-gradient(90deg, rgba(255,255,255,1) 61%, rgba(39,39,39,1) 61%);
+  position: relative;
 }
 
-.main {  /** вес 10 */
-  width: 100px;
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
-main.main { /** вес 11 */
- width: 350px;
+.header__right {
+  display: flex;
+  width: min-content;
+  column-gap: 80px;
+}
+
+.header__ui-icon {
+  width: min-content;
+  display: flex;
+  column-gap: 40px;
+  
+}
+
+.basket {
+  height: 20px;
+  display: flex;
+  column-gap: 10px;
+  align-items: center;
+  color: white;
+}
+
+.burger {
+  width: 30px;
+  height: 16px;
+}
+
+/********************/
+/****** lang ********/
+.lang-block {
+  display: flex;
+  gap: 10px;
+  width: 62px;
+}
+
+.lang {
+  font-size: 16px;
+  color: #C4C4C4;
+}
+
+.lang_active {
+  color: #272727;
+}
+
+.content-center {
+  display: flex;
+  flex-direction: row;
+  column-gap: 100px;
+}
+
+.content-center__left {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  row-gap: 50px;
+  width: min-content;
+}
+
+.content-center__look {
+  display: flex;
+  flex-direction: row;
+  column-gap: 38px;
+  align-items: center;
+  margin-left: 129px;
+  width: min-content;
+  white-space: nowrap;
+}
+
+.content-center__h1 {
+  font-family: "Forum";
+  font-size: 64px;
+  line-height: 70px;
+  font-weight: 400;
+  text-transform: uppercase;
+  color: #272727;
+  font-style: normal;
+}
+
+.content-center__sep {
+  width: 130px;
+  border-bottom: 1px solid #272727;
+}
+
+.content-center__look-collection {
+  font-family: 'SegoeIt';
+  font-size: 18px;
+  font-weight: normal;
+  line-height: 24px;
+  color: #272727;
+}
+
+.content-center__img {
+  width: 322px;
+  height: 170px;
 }

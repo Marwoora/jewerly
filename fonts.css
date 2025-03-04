@@ -1,0 +1,11 @@
+
+@font-face {
+  font-family: "Forum";
+  font-weight: 400;
+  src: url(./fonts/Forum/Forum-Regular.ttf);
+}
+
+@font-face {
+  font-family: 'SegoeIt';
+  src: url(./fonts/SegoeUIItalic.ttf);
+}
