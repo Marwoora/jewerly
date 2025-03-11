@@ -12,44 +12,133 @@
 </head>
 <body>
   <main>
-    <header class="header">
-      <img src="./images/logo.svg" class="ui-logo" alt="логотип бренда">
-      <div class="header__right">
-        <div class="header__ui-icon">
-          <img src="./images/heart-icon.svg" class="ui-icon" alt="иконка добавления в избранное">
-          <img src="./images/profile-icon.svg" class="ui-icon" alt="иконка профиля">
-          <div class="basket">
-            <img src="./images/basket-icon.svg" class="ui-icon" alt="иконка корзины магазина">
-            <span class="basket__num">1</span>
+    <section class="first">
+      <header class="header">
+        <img src="./images/logo.svg" class="ui-logo" alt="логотип бренда">
+        <div class="header__right">
+          <div class="header__ui-icon">
+            <img src="./images/heart-icon.svg" class="ui-icon" alt="иконка добавления в избранное">
+            <img src="./images/profile-icon.svg" class="ui-icon" alt="иконка профиля">
+            <div class="basket">
+              <img src="./images/basket-icon.svg" class="ui-icon" alt="иконка корзины магазина">
+              <span class="basket__num">1</span>
+            </div>
+          </div>
+          <img src="./images/burger.svg" class="burger" alt="кнопка выбора раздела"> 
+        </div>
+      </header>
+
+      <div class="content-center">
+        <div class="content-center__left">
+          <h1 class="content-center__h1">HIGH JEWELRY</h1>
+          <div class="content-center__look">
+            <div class="content-center__sep"></div>
+            <p class="content-center__look-collection">Смотреть коллекцию</p>
           </div>
         </div>
-        <img src="./images/burger.svg" class="burger" alt="кнопка выбора раздела"> 
+        <img class="content-center__img" src="./images/ring-cartier.png" alt="кольцо картье">
       </div>
-    </header>
 
-    <div class="content-center">
-      <div class="content-center__left">
-        <h1 class="content-center__h1">HIGH JEWELRY</h1>
-        <div class="content-center__look">
-          <div class="content-center__sep"></div>
-          <p class="content-center__look-collection">Смотреть коллекцию</p>
+      <div class="content-extra">
+        <div class="lang-block">
+          <div class="lang lang_active">RU</div>
+          <div class="lang">EN</div>
+        </div>
+        <div class="content-extra__about-jewerly">
+          <p class="content-extra__jewerly">КОЛЬЦО TRINITY, Cartier</p>
+          <p class="content-extra__description">Белое золото, бриллианты</p>
+          <p class="content-extra__price">498 000 ₽</p>
         </div>
       </div>
-      <img class="content-center__img" src="./images/ring-cartier.png" alt="кольцо картье">
-    </div>
+    </section>
 
-    <div class="content-extra">
+    <section class="content-jewerly__chapter mt-20"> 
+      <div class="content-jewerly__man">
+          <p class="chapter__go">Перейти в раздел</p>
+          <div class="chapter__for-sep">
+            <p class="chapter__for">Для мужчин</p>
+            <span class="chapter-sep"></span>
+          </div>
+      </div>
+      <div class="content-jewerly__women">
+          <p class="chapter__go">Перейти в раздел</p>
+          <div class="chapter__for-sep">  
+            <p class="chapter__for">Для женщин</p>
+            <span class="chapter-sep"></span>
+          </div>
+      </div>
+    </section>
 
-      <div class="lang-block">
-        <div class="lang lang_active">
-          RU
+    <section class="content-boutique__wrapper mt-20">
+      <div class="content-boutique"> 
+        <div class="content-boutique__text-block"> 
+          <p class="content-boutique__find">Найди<br>бутик около себя</p>
+          <p class="content-boutique__adress">Введите свой адрес и узнайте о самых ближайших<br>бутиках к вам</p>
         </div>
-
-        <div class="lang">
-          EN
+        <form class="content-boutique__imput-adress">
+          <input type="text" id="adress" name="adress" class="content-boutique__imput"
+            placeholder="Введите текст" >
+          <button class="content-boutique__button" type="submit"></button>
+        </form>
+      </div>
+      <div class="content-boutique__map">
+        <img src="./images/geolocator.svg" class="geo-1">
+        <img src="./images/geolocator.svg" class="geo-2">
+        <img src="./images/geolocator.svg" class="geo-3">
+        <img src="./images/geolocator.svg" class="geo-4">
+        <img src="./images/geolocator-full.svg" class="geo-full">
+        <img src="./images/cursor_PNG3 1.svg" class="cursor">
+        <div class="block__adress">
+          <p class="block__adress-text">ул. Тверская, 24</p>
         </div>
       </div>
-    </div>
+    </section>
+    <section class="content-assortment mt-20">
+      <div class="content-assortment__block-1">
+        <div class="card-jewerly">
+          <img src="./images/card-img_2.png" class="card-jewerly__img">
+          <div class="card-jewerly__text-block product product_light product_left">
+            <p class="text-block__name">КОЛЬЦО jow’s, Cartier</p>
+            <p class="text-block__description">Белое золото, бриллианты</p>
+            <p class="text-block__price">674 000 ₽</p>
+          </div>
+        </div>
+        <div class="card-jewerly mt-20">
+          <img src="./images/card-img_3.png" class="card-jewerly__img">
+          <div class="card-jewerly__text-block">
+            <p class="text-block__name">КОЛЬЦО croix, Cartier</p>
+            <p class="text-block__description">Желтое, белое, розовое золото</p>
+            <p class="text-block__price">432 000 ₽</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="content-assortment__block-2">
+
+        
+      </div>
+      <div class="content-assortment__block-3">
+        <div class="card-jewerly">
+          <img src="./images/card-img_1.png" class="card-jewerly__img">
+          <div class="card-jewerly__text-block">
+            <p class="text-block__name">Серьги moon, HUBLOT</p>
+            <p class="text-block__description">Желтое золото, сапфир</p>
+            <p class="text-block__price">498 000 ₽</p>
+          </div>
+        </div>
+        <div class="card-jewerly mt-20">
+          <img src="./images/card-img_4.png" class="card-jewerly__img">
+          <div class="card-jewerly__text-block">
+            <p class="text-block__name">серьги win, BLANCPAIN</p>
+            <p class="text-block__description">Желтое золото, жемчуг</p>
+            <p class="text-block__price">398 000 ₽</p>
+          </div>
+        </div>
+
+      </div>
+
+  
+    </section>
   </main>
 </body>
 </html>

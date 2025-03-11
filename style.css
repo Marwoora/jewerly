@@ -4,20 +4,22 @@
 }
 
 main {
+  width: 1440px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.first {
+  height: 100vh;
   background-color: white;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  width: 1440px;
-  height: 100vh;
-  margin-left: auto;
-  margin-right: auto;
   padding: 60px 162px;
   background: rgb(255,255,255);
   background: linear-gradient(90deg, rgba(255,255,255,1) 61%, rgba(39,39,39,1) 61%);
   position: relative;
 }
-
 .header {
   display: flex;
   align-items: center;
@@ -61,6 +63,7 @@ main {
 .lang {
   font-size: 16px;
   color: #C4C4C4;
+  font-family: "Futura";
 }
 
 .lang_active {
@@ -117,4 +120,393 @@ main {
 .content-center__img {
   width: 322px;
   height: 170px;
+}
+
+.content-extra {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: end;
+  column-gap: 880px;
+}
+
+.content-extra__about-jewerly {
+  display: flex;
+  flex-direction: column;
+  row-gap: 9px;
+  align-items: end;
+}
+
+.content-extra__jewerly {
+  font-family: "Futura";
+  font-size: 16px;
+  line-height: 20px;
+  color: white;
+  text-transform: uppercase;
+  white-space: nowrap;
+  align-items: end;
+  text-align: right;
+}
+
+.content-extra__description {
+  font-family: "Futura";
+  font-size: 18px;
+  line-height: 23px;
+  color: #C2C2C2;
+  font-weight: 300;
+  white-space: nowrap;
+}
+
+.content-extra__price {
+  font-family: 'SegoeIt';
+  font-size: 18px;
+  line-height: 23px;
+  color: #EFC58B;
+  font-weight: 300;
+  text-transform: uppercase;
+  text-align: right;
+}
+
+.content-jewerly__chapter {
+  background-image: url(./images/women-man-chapter-.png);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  width: 1440px;
+}
+
+.pt-20 {
+  padding-top: 20px;
+}
+
+.content-jewerly__chapter {
+  display: flex;
+  column-gap: 20px;
+}
+
+.content-jewerly__man {
+  background-image: url(./images/man-chapter.png);
+  background-repeat: no-repeat;
+  height: 587px;  
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.content-jewerly__women {
+  background-image: url(./images/women-chapter.png);
+  background-repeat: no-repeat;
+  height: 587px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.chapter__go {
+  font-family: "Futura";
+  font-size: 24px;
+  line-height: 30px;
+  color: white;
+  font-weight: 300;
+  text-align: center;
+}
+
+.chapter__for-sep {
+  display: flex;
+  row-gap: 24px;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.chapter__for {
+  font-family: "Forum";
+  font-size: 64px;
+  line-height: 70px;
+  color: white;
+  font-weight: 300;
+  text-align: center;
+}
+
+.chapter-sep {
+  width: 130px;
+  border-bottom: 1px white solid;
+}
+
+.content-boutique__wrapper {
+  display: flex;
+  position: relative;
+}
+
+.content-boutique {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  /* width: 740px; */
+  height: 604px;
+  background-color: #272727;
+  row-gap: 60px;
+}
+
+.content-boutique__find {
+  font-family: "Forum";
+  font-size: 48px;
+  line-height: 52px;
+  color: white;
+  font-weight: 400;
+  text-align: left;
+}
+
+.content-boutique__adress { 
+  font-family: "Futura";
+  font-size: 18px;
+  line-height: 32px;
+  color: white;
+  font-weight: 300;
+  text-align: left;
+}
+
+.mt-20 {
+  margin-top: 20px;
+}
+
+.content-boutique__text-block {
+  width: 386px;
+  height: 168px;
+  display: flex;
+  flex-direction: column;
+  row-gap: 16px;
+  align-items: center;
+  justify-content: center;
+}
+
+.content-boutique__imput-adress {
+  width: 392px;
+  height: 35px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  border-bottom: 1px solid white;
+}
+
+.content-boutique__imput {
+  background: transparent;
+  outline: none;
+  border: none;
+  font-family: "Futura";
+  font-size: 18px;
+  line-height: 23px;
+  color: rgba(255, 255, 255, 0.4);
+  
+}
+
+.content-boutique__button {
+  background-image: url(./images/arrow.svg);
+  background-repeat: no-repeat;
+  background-position-x: -3px;
+  outline: none;
+  border: none;
+  width: 28px;
+  height: 15px;
+  fill-opacity: 0;
+  background-color: transparent;
+  margin-top: 9px;
+}
+
+.content-boutique__map {
+  background-image: url(./images/boutiqle-map.png);
+  background-repeat: no-repeat;
+  background-size: auto;
+}
+
+.geo-1 {
+  position: absolute;
+  right: 593px;
+  bottom: 395px;
+  width: 60px;
+  height: 60px;
+}
+
+.geo-2 {
+  position: absolute;
+  right: 305px;
+  bottom: 319px;
+  width: 60px;
+  height: 60px;
+}
+
+.geo-3 {
+  position: absolute;
+  right: 200px;
+  bottom: 183px;
+  width: 60px;
+  height: 60px;
+}
+
+.geo-4 {
+  position: absolute;
+  right: 412px;
+  bottom: 132px;
+  width: 60px;
+  height: 60px;
+}
+
+.geo-full {
+  position: absolute;
+  right: 420px;
+  bottom: 372px;
+  width: 60px;
+  height: 60px;
+}
+
+.cursor {
+  position: absolute;
+  right: 422px;
+  bottom: 349px;
+  width: 24px;
+  height: 30px;
+}
+
+.block__adress {
+  width: 134px;
+  height: 43px;
+  background-color: rgba(255,255,255,0.2);
+  position: absolute;
+  right: 298px;
+  top: 133px;
+}
+
+.block__adress-text {
+  font-family: "Futura";
+  font-size: 18px;
+  line-height: 23px;
+  color: white;
+  font-weight: 300;
+  text-align: center;
+  margin-top: 9px;
+}
+
+.content-assortment {
+  display: flex;
+  flex-direction: row;
+  column-gap: 20px;
+}
+
+.content-assortment__block-1 {
+  display: flex;
+  flex-direction: column;
+}
+
+.content-assortment__block-2 {
+  background-image: url(./images/backgrnd-women.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  min-width: 600px;
+}
+
+.card-jewerly {
+
+}
+
+/***************************************/
+/** Текстовый блок для карточки товара */
+/** maket: https://www.figma.com/design/h8noBnTMtXKEm5Prwm59UN/Moon-River?node-id=1-172&t=xVikxZ0SzAKe5COd-0 */
+/** YANA-12123 */
+/** autor: олег и яна */
+/***************************************/
+.product {
+
+}
+.product_black {
+  color: #272727;
+}
+.product_light {
+  color: #FFFFFF;
+}
+.product_left {
+
+}
+.product_right {
+
+}
+.product__name {
+
+}
+.product__description {
+
+}
+.product__price {
+
+}
+/***************************************/
+
+.product-page-2 {
+
+}
+
+.card-jewerly {
+  /* width: 400px; */
+  height: 400px;
+  background-color: #EDEDED;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0 0 20px 30px;
+}
+.card-jewerly__img {
+  width: 285px;
+  height: 288px;
+}
+
+.ring-cartier-jow__img {
+  width: 260px;
+  height: 180px;
+}
+
+.card-jewerly__text-block {
+  display: flex;
+  flex-direction: column;
+  row-gap: 9px;
+}
+
+.text-block__name {
+  font-family: "Futura";
+  font-size: 16px;
+  line-height: 25px;
+  color: #272727;
+  text-transform: uppercase;
+  font-weight: 400;
+  text-align: left;
+  letter-spacing: 5%;
+
+}
+
+.text-block__description {
+  font-family: "Futura";
+  font-size: 18px;
+  line-height: 23px;
+  color: #757575;
+  font-weight: 300;
+  text-align: left;
+}
+
+.text-block__price {
+  font-family: 'SegoeIt';
+  font-size: 18px;
+  line-height: 23px;
+  color: #E2B67A;
+  font-weight: 400;
+  text-align: left;
+}
+
+.card-jewerly__block-2 {
+  display: flex;
+  flex-direction: column;
+}
+
+.chimera__img {
+  width: 320px;
+  height: 320px;
 }

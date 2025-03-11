@@ -9,3 +9,8 @@
   font-family: 'SegoeIt';
   src: url(./fonts/SegoeUIItalic.ttf);
 }
+
+@font-face {
+  font-family: "Futura";
+  src: url(./fonts/FuturaPT-Light.ttf);
+}
